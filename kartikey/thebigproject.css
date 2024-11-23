@@ -1,0 +1,238 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    position: fixed;
+    color: antiquewhite;
+    z-index: 100;
+    box-shadow: 1px 1px 10px rgb(65, 9, 65);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.navbody{
+    width: 80%;
+     margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.logo{
+   font-size: x-large;
+   font-family: 'Courier New', Courier, monospace;
+   text-shadow: 1px 1px 10px wheat;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+}
+
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(230, 209, 230);
+    background-image: url(aaj.jpg);
+}
+
+.mainIn{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+   
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+
+    justify-content: center;
+    color: rgb(232, 240, 237);
+    gap: 20px;
+}
+
+
+.h1{
+    font-style: italic;
+    font-size: 80px;
+    text-shadow: 1px 1px 10px wheat;
+}
+
+.music{
+
+    width: 100%;
+    height:375px ;
+  background-color: rgb(49, 2, 49);
+    /* padding: 20px; */
+}
+
+.childmusic{
+
+    width: 80%;
+    height: 630px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    gap: 20px;
+
+
+}
+.h11{
+    /* padding: 20px; */
+    font-size: xx-large;
+}
+button{
+    background-color: red;
+    color: aliceblue;
+}
+img{
+    position: relative;
+
+    
+}
+.collection{
+    width: 100%;
+   
+    height: 1111px;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: center;
+
+   
+}
+.firstc{
+    width: 80%;
+    padding-top: 20px;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.h51{
+    padding: 30px;
+}
+.h41{
+    background-color: blue;
+    margin: 20px;
+}
+#kartik{
+    margin: 10px;
+    height: 400px;
+    position: relative;
+}
+.world{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 500px;
+   
+    margin-top: -190px;
+    background-image: url(aaj4.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  
+    
+}
+.miniworld{
+    width: 80%;
+    margin: auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.giftcard{
+
+  
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  
+}
+.minigift{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+}
+.lists{
+    display: flex;
+    width: 100% ;
+    background-color: rgb(8, 8, 77);
+    border: 1px solid black;
+    height: 300px;
+    color: aliceblue;
+   
+    
+  
+}
+.shops{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+   
+    
+}
+.firstlistitem{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+    color: aliceblue;
+}
+
